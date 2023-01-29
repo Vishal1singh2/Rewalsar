@@ -1,0 +1,335 @@
+body,
+html{
+	width: 100%;
+	height: 100%;
+	background: url(Background-image.jpg) no-repeat center  ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+
+
+.nav-item{
+	margin-right:60px;
+}
+
+h3{
+	font-family: Katibeh;
+}
+
+#h1_text{
+	font-family: Bangers;
+	font-style: italic;
+	color: white;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 3);
+}
+
+
+
+#p_text{
+	font-family: Katibeh;
+	color: white;
+	text-shadow: 2px 2px 2px rgba(100, 0, 0, 1);
+	text-transform: uppercase;
+	
+
+}
+
+	p{
+		font-size: calc(0.5em + 1.2vw);
+	}
+}
+
+.buffer{
+	height: 50%;
+}
+
+#page2{
+	margin-top: 20px;
+}
+
+#img_tso{
+	margin-top:80px;
+	border-radius: 60px;
+	box-shadow:  5px 10px 7px 4px rgba(0, 0, 0, 0.2);
+}
+
+#h1_text1{
+	font-family: Katibeh;
+}
+
+.gradient-text {
+  /* Fallback: Set a background color. */
+  background-color: #197834;
+  
+  /* Create the gradient. */
+  background-image: linear-gradient(50deg, #000000,#197834
+, #29C254);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+
+#p_text1{
+	font-family: Italiana;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	letter-spacing: 0.05em;
+
+	margin: 40px;
+	font-size: 20px;
+}
+
+#p_text2{
+	font-family: Italiana;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	letter-spacing: 0.05em;
+
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+
+#p_text2{
+	font-family: Italiana;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	letter-spacing: 0.05em;
+
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+
+#p_text3{
+	font-family: Italiana;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	letter-spacing: 0.05em;
+
+	margin-top: 60px;
+	margin-bottom: 50px;
+	font-size: 20px;
+}
+
+div.scrollmenu {
+  
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu img{
+  display: inline-block; 
+  padding: 10px;
+  
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+.img_scrol{
+	width: 355px;
+	height: 475px;
+}
+
+.rounded{
+	width: 361px;
+	height: 361px;
+	margin-top: 40px;
+	margin-inline: 33px;
+
+}
+#teso{
+	align-items: center;
+}
+
+#p_text4{
+	font-family: Italiana;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	letter-spacing: 0.05em;
+
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+#p_text5{
+	font-family: Italiana;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	letter-spacing: 0.05em;
+
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+
+#p_text6{
+	font-family: Italiana;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	letter-spacing: 0.05em;
+
+	
+	font-size: 20px;
+}
+
+.container{
+	margin-top: 30px;
+
+}
+
+.card{
+	width: 361px;
+	height: 361px;
+}
+
+
+#row_1{
+	margin-bottom: 30px;
+}
+
+
+h/*tml,body {
+  
+  font-family: Arial, Helvetica, Sans-serif;
+  background-color: #070617;
+}*/
+
+#footer{
+	background-color: black;
+}
+
+.footer {
+	
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color:#070617;
+}
+.footer .col {
+  width: 190px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: rgba(255,255,255,0.2);
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.250em;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color: #999999;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+}
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+}
+
+.footer .col ul li:hover {
+  color: #ffffff;
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+}
+.clearfix {
+  clear: both;
+}
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  .contain .social {
+    width: 1000px;
+    display: block;
+  }
+  .social h1 {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .footer .col {
+    width: 33%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 500px) {
+    .footer .col {
+      width: 50%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    }
+    .footer .col ul li {
+      font-size: 13px;
+    }
+}
+@media only screen and (max-width: 340px) {
+  .footer .col {
+    width: 100%;
+  }
+}
+
+
